@@ -1,0 +1,21 @@
+{
+    "src": {
+        "js": "src/**/*.js",
+        "css": "src/**/*.css",
+        "templates": "src/**/*.ymtpl"
+    },
+    "dest": "build/",
+    "namespace": "myApp",
+    "target": "standalone",
+    "store": "async",
+    "asyncMap": false,
+    "modes": {
+        "debug": {
+            "dest": "build/debug/",
+            "minify": false
+        },
+        "release": {
+            "dest": "build/release/"
+        }
+    }
+}

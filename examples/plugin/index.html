@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>yms server test</title>
+    <script type="text/javascript" src="http://localhost:3333/init.js?mode=debug&namespace=myApp"></script>
+    <script type="text/javascript" src="http://localhost:3334/init.js?mode=debug&namespace=myApp"></script>
+    <script type="text/javascript">
+        myApp.ready(['myPlugin.B']).spread(function (B) {
+            var b = new B('OH YEAH', 'WITH PLUGIN');
+
+            alert(b.getContent());
+        }).fail(onError);
+
+        function onError (err) {
+            console.error(err);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

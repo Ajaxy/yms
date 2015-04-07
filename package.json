@@ -1,0 +1,43 @@
+{
+  "name": "yms",
+  "version": "0.1.1",
+  "description": "Server for projects based on ym modules.",
+  "author": "Alexander Zinchuk <alexander@zinchuk.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yandex/yms"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/yandex/yms/issues"
+  },
+  "keywords": [
+    "ym",
+    "modules",
+    "combine",
+    "index",
+    "server",
+    "builder"
+  ],
+  "engines": {
+    "node": "^0.10.12"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.0",
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-footer": "^1.0.5",
+    "gulp-wrapper": "^0.1.5",
+    "lodash": "^3.6.0",
+    "minimist": "^1.1.1",
+    "through2": "^0.6.3",
+    "vow": "^0.4.9",
+    "vow-fs": "^0.3.4"
+  },
+  "bin": {
+    "yms": "./bin/yms.js"
+  },
+  "preferGlobal": true,
+  "license": "Mozilla Public License, v. 2.0"
+}

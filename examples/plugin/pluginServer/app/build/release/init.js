@@ -1,0 +1,1 @@
+function setupEnvironment(e){project.env=e,ym.modules.require(["system.ModuleLoader"],function(e){new e(ym.project.initialMap,ym.env.server).defineAll()})}ym.modules=global.myApp.modules,ym.project.initialMap=[["myPlugin.A","0a","=A==util.defineClass="],["myPlugin.B","0b","0a=util.defineClass="]];
