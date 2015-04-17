@@ -16,7 +16,8 @@ function handleYms (req, res) {
     var data = {
             req: req,
             res: res,
-            src: './build/' + (req.query.mode ? req.query.mode + '/' : '')
+            src: './build/' + (req.query.mode ? req.query.mode + '/' : ''),
+            env: {}
         };
 
     res.set('Content-Type', 'text/javascript');
